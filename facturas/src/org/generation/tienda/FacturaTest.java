@@ -17,7 +17,7 @@ public class FacturaTest {
 				-12, 200);
 		satTres = new Factura("3", "Descuentazos", 25, -150.42334);
 		
-		satTres.getTotalFatura();
+		satUno.getTotalFatura();
 		satDos.getTotalFatura();
 		satTres.getTotalFatura();
 		
