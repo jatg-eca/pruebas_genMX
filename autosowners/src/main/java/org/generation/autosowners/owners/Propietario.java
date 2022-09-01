@@ -2,19 +2,23 @@ package org.generation.autosowners.owners;
 
 import java.util.Date;
 
-abstract public class Propietario {
+public class Propietario {
 	private String nombre;
-	private int numeroCPF;
-	private int regimenGeneral;
-	private Date fechaNacimiento;
+	private String numeroCPF;
+	private String regimenGeneral;
+	private String fechaNacimiento;
 	private Direccion direccion;
 	
-	Propietario(int numeroCPFParam,
-				int regimenGeneralParam,
-				Direccion direccionParam) {
+	public Propietario(String numeroCPFParam,
+				String regimenGeneralParam,
+				Direccion direccionParam,
+				String nombreParam,
+				String fechaNacimiento) {
 		this.numeroCPF = numeroCPFParam;
 		this.regimenGeneral = regimenGeneralParam;
 		this.direccion = direccionParam;
+		this.nombre = nombreParam;
+		this.fechaNacimiento = fechaNacimiento;
 	}
 
 }
