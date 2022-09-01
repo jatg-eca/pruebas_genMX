@@ -3,10 +3,8 @@ package org.generation.autosowners.autos;
 import org.generation.autosowners.owners.Propietario;
 
 abstract public class AutoAbstract implements IAuto {
-	private String modelo;
 	private String color;
-	private String year;
-	private String marca;
+	private Marca marca;
 	private String chasis;
 	private Propietario propietario;
 	private int velocidadMax;
