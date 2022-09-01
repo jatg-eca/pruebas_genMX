@@ -5,8 +5,6 @@ public interface IAuto {
 	public void frenado();
 	public void subirMarcha();
 	public void reducirMarcha();
-	
-	
-	
+		
 
 }
