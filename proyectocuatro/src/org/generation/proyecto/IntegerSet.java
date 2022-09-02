@@ -5,13 +5,13 @@ import java.util.HashSet;
 import java.util.Iterator;
 
 public class IntegerSet {
-	private static int maxNumbers = 100;
+	private static int maxNumbers = 101; //del 0 al 100
 	boolean conjuntoA [] = new boolean [maxNumbers];
 	boolean conjuntoB [] = new boolean [maxNumbers];
 	
 	public IntegerSet(){
 		for(int i= 0; i<maxNumbers; i++) {
-			conjuntoA[i] = false;
+			conjuntoA[i] = true;
 		}
 		for(int j=0; j<maxNumbers; j++) {
 			conjuntoB[j] = false;
@@ -119,66 +119,7 @@ public class IntegerSet {
 	}
 
 	
-	
-	
-//	private boolean matrizA;
-//	private boolean matrizB;
-//	private int numeroI;
-//	private int numeroJ;
-//	
-//	private int numeroK;
-//	private int numeroM;
-//	
-//	private int initialize;
-//	
-//	IntegerSet() {
-//		this.matrizA = false;
-//		this.matrizB = false;
-//	}
-//	
-//	public void setNumeroI(int numeroI) {
-//		this.numeroI = numeroI;
-//		if (numeroI >= 0 && numeroI <=100) {
-//			this.matrizA = true;
-//		}
-//	}
-//	
-//	public void setNumeroJ(int numeroJ) {
-//		this.numeroJ = numeroJ;
-//		if (numeroJ > 100 || numeroJ < 0) {
-//			this.matrizB = false;
-//		}
-//	}
-//	
-//	public boolean unionOr(){
-//		if(matrizA == false && matrizB == false) {
-//			return false;
-//		}
-//		else {
-//			return true;
-//		}
-//	}
-//	
-//	public boolean unionAnd() {
-//		if(matrizA == true && matrizB == true) {
-//			return true;
-//		}
-//		else {
-//			return false;
-//		}
-//	}
-//	
-//	public void insertsElement(int numeroK){
-//		this.numeroK = numeroK;
-//		boolean matrizC = true;		
-//	}
-//	
-//	public void deleteElement(){
-//		this.numeroM = initialize;
-//		boolean matrizD = false;
-//	}
-	
-	
+
 	
 
 }
