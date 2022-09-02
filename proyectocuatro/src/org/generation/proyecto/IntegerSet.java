@@ -11,7 +11,7 @@ public class IntegerSet {
 	
 	public IntegerSet(){
 		for(int i= 0; i<maxNumbers; i++) {
-			conjuntoA[i] = true;
+			conjuntoA[i] = false;
 		}
 		for(int j=0; j<maxNumbers; j++) {
 			conjuntoB[j] = false;
@@ -32,6 +32,13 @@ public class IntegerSet {
 			}
 		
 		System.out.println("Unión: " + Arrays.toString(conjuntoUnion));
+		int checker = 0;
+		for(int i=0; i<conjuntoUnion.length; i++) {
+			if(conjuntoUnion[i] == true) {
+				checker += 1;
+			}
+		}
+		System.out.println("Coincidencias en unión: " + checker);
 	}
 	
 	public void interseccion() {
@@ -46,6 +53,13 @@ public class IntegerSet {
 		}
 		
 		System.out.println("Interseccion: " + Arrays.toString(conjuntoInterseccion));
+		int checker = 0;
+		for(int i=0; i<conjuntoInterseccion.length; i++) {
+			if(conjuntoInterseccion[i] == true) {
+				checker += 1;
+			}
+		}
+		System.out.println("Coincidencias en intersección: " + checker);
 	}
 	
 	public void insertsElementConjuntoA(int position) {
