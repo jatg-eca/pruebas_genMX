@@ -24,12 +24,12 @@ public class App {
 	   integerSet.interseccion();
 	   integerSet.insertsElementConjuntoA(2);
 	   integerSet.insertsElementConjuntoB(2);
-	   //integerSet.insertsElementConjuntoA(5);
-	   //integerSet.insertsElementConjuntoA(10);
+	   integerSet.insertsElementConjuntoA(5);
+	   integerSet.insertsElementConjuntoA(10);
 	   
-	   //integerSet.toSetStringConjuntoA();
-	   //integerSet.toSetStringConjuntoB();
-	   //integerSet.deleteElementConjuntoA(5);
+	   integerSet.toSetStringConjuntoA();
+	   integerSet.toSetStringConjuntoB();
+	   integerSet.deleteElementConjuntoA(5);
 	   integerSet.toSetStringConjuntoA();
 	   System.out.println(integerSet.equalTo());
 	   integerSet.union();

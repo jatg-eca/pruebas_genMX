@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 
 public class IntegerSet {
-	private static int maxNumbers = 3;
+	private static int maxNumbers = 100;
 	boolean conjuntoA [] = new boolean [maxNumbers];
 	boolean conjuntoB [] = new boolean [maxNumbers];
 	
