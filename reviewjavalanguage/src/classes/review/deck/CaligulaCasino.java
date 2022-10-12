@@ -11,6 +11,7 @@ public class CaligulaCasino {
 		FullDeck abueDeck = new FullDeck();
 		
 		abueDeck.getAces();
+		abueDeck.getOnes();
 
 
 	}

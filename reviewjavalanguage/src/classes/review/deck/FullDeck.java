@@ -82,6 +82,12 @@ public class FullDeck {
 	
 	
 	public FullDeck() {
+		fulldeckCardCreator();
+		this.material = "papel";
+		this.coverArt = "rombos rojos";
+	}
+	
+	public void fulldeckCardCreator() {
 		abastos = new Card("A", "bastos", "negro");
 		aoros = new Card("A", "oros", "rojo");
 		acopas = new Card("A", "copas", "rojo");
@@ -152,13 +158,6 @@ public class FullDeck {
 		$Koros = new Card("K", "oros");
 		$Kcopas = new Card("K", "copas");
 		$Kespadas = new Card("K", "espadas");
-		
-		this.material = "papel";
-		this.coverArt = "rombos rojos";
-	}
-	
-	public void fulldeckCardCreator() {
-		
 	}
 	
 	public void personalizeCoverArt(String coverArt) {
@@ -174,6 +173,13 @@ public class FullDeck {
 		this.acopas.getCard();
 		this.aespadas.getCard();
 		this.aoros.getCard();
+	}
+	
+	public void getOnes() {
+		this.$1bastos.getCard();
+		this.$1copas.getCard();
+		this.$1espadas.getCard();
+		this.$1oros.getCard();
 	}
 
 	
