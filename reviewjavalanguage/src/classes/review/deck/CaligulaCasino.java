@@ -7,6 +7,10 @@ public class CaligulaCasino {
 		
 		Card asDeBastos = new Card("A", "bastos", "negro");
 		asDeBastos.getCard();
+		
+		FullDeck abueDeck = new FullDeck();
+		
+		abueDeck.getAces();
 
 
 	}
