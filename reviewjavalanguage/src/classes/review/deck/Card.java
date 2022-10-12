@@ -13,6 +13,12 @@ public class Card {
 		this.color = color;
 	}
 	
+	public Card(String rank, String suit) {
+		this.rank = rank;
+		this.suit = suit;
+		this.color = "blanco";
+	}
+	
 	public void getCard() {
 		System.out.println("Una carta de características " + "\"" +
 							rank + "\" de " + suit + " " + color );
