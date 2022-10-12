@@ -21,9 +21,17 @@ public class Main {
 //		System.out.println(hola);
 		
 		int numeroIdea = new Artist(null, false, false).sumarConArte(1, 2, 3);
-		System.out.println(numeroIdea);
+		System.out.println("Numero en abstracto: " + numeroIdea);
 		
+		abue.returnPlays();
+		System.out.println(abue.returnArtist().toString());
 		
+		Sculptor squidward = new Sculptor("camello", true, true, "marble");
+		System.out.println(squidward.returnArtist());
+		abue.getArtistNumber();
+		
+		squidward.artistsNumber = 10;
+		abue.getArtistNumber();
 	}
 
 }
