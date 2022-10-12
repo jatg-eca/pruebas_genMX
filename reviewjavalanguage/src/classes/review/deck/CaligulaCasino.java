@@ -13,7 +13,6 @@ public class CaligulaCasino {
 		abueDeck.getAces();
 		abueDeck.getOnes();
 
-
 	}
 
 }

@@ -87,7 +87,7 @@ public class FullDeck {
 		this.coverArt = "rombos rojos";
 	}
 	
-	public void fulldeckCardCreator() {
+	private void fulldeckCardCreator() {
 		abastos = new Card("A", "bastos", "negro");
 		aoros = new Card("A", "oros", "rojo");
 		acopas = new Card("A", "copas", "rojo");
